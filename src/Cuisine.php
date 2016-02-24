@@ -32,6 +32,10 @@
         }
         return $cuisines;
       }
+      static function deleteAll()
+      {
+        $GLOBALS['DB']->exec("DELETE FROM cuisine;");
+      }
 
 
     }
