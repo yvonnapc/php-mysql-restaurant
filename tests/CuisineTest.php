@@ -74,6 +74,24 @@
           $this->assertEquals(1, $result);
         }
 
+        function test_find()
+        {
+          //Arrange
+          $description = "Vietnamese";
+          $description2= "Mexican";
+          $test_cuisine = new Cuisine($description);
+          $test_cuisine->save();
+          $test_cuisine2 = new Cuisine($description2);
+          $test_cuisine2->save();
+
+          //Act
+          $id = $test_cuisine->getId();
+          $result = Cuisine::find($id);
+
+          //Assert
+          $this->assertEquals($test_cuisine, $result);
+        }
+
   }
 
 
