@@ -3,10 +3,17 @@
     {
 
       private $description;
+      private $id;
 
-      function __construct($description)
+
+      function __construct($description, $id = null)
       {
         $this->description = $description;
+        $this->id = $id;
+      }
+      function getId()
+      {
+        return $this->id; 
       }
       function setDescription($new_description)
       {
@@ -36,6 +43,7 @@
       {
         $GLOBALS['DB']->exec("DELETE FROM cuisine;");
       }
+
 
 
     }

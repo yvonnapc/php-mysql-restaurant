@@ -62,6 +62,18 @@
           $result = Cuisine::getAll();
           $this->assertEquals([], $result);
         }
+        function test_getId()
+        {
+          //Arrange
+          $description = "Vietnamese";
+          $id = 1;
+          $test_cuisine = new Cuisine($description, $id);
+          //Act
+          $result = $test_cuisine->getId();
+          //Assert
+          $this->assertEquals(1, $result);
+        }
+
   }
 
 
