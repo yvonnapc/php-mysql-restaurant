@@ -1,7 +1,6 @@
 <?php
     class Cuisine
     {
-
       private $description;
       private $id;
 
@@ -47,7 +46,7 @@
 
       static function find($search_id)
       {
-        $found_cuisine=null;
+        $found_cuisine = null;
         $cuisines = Cuisine::getAll();
         foreach($cuisines as $cuisine) {
           $cuisine_id = $cuisine->getId();

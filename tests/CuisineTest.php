@@ -2,7 +2,7 @@
 
   /**
   * @backupGlobals disabled
-  * @bkacupStaticAttributes disabled
+  * @bacupStaticAttributes disabled
   */
 
   require_once "src/Cuisine.php";
