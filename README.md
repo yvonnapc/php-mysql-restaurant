@@ -6,7 +6,7 @@
 
 ## Description
 
-This application was used as practice using SQL statements to query the database, delete records from the database and insert into the database. Users can submit a cuisine and then assign a restaurant to the cuisine category. CRUD functionality was also implemented in this project.
+Part 1: This application serves as a platform to keep track of cuisines as a category and then assign a restaurant to that category. Part 1 of this project was to extensively test our methods.
 
 ## Prerequisites
 
