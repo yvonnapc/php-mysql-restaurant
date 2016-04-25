@@ -1,6 +1,6 @@
 #_Best Restaurant_
 
-#### A to-do list app using MySQL | February 24, 2016
+#### A log of best restaurants | February 24, 2016
 
 #### By Yvonna Contreras & Erik Tolentino
 
